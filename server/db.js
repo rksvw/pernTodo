@@ -1,4 +1,5 @@
 const Pool = require("pg").Pool;
+require('dotenv').config();
 
 // Retrive the values of the database properties
 const dbHost = process.env.DB_HOST
